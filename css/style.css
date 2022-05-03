@@ -4,3 +4,91 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.big-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+/* HEADER */
+
+header {
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+}
+
+header li {
+    padding: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* logo */
+
+.logo {
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: auto;
+    height: 25px;
+}
+
+/* login */
+
+.login {
+    padding: 0 20px;
+    align-items: center;
+}
+
+
+/* MAIN */
+
+/* Jumbtron */
+
+.jumbotron {
+    height: 600px;
+    background-color: #b4d0e7;
+}
