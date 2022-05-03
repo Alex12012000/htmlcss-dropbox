@@ -16,6 +16,11 @@ body {
     margin: 0 auto;
 }
 
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
 img {
     width: 100%;
 }
@@ -37,6 +42,19 @@ ul {
 h1 {
     font-size: 60px;
     padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
 }
 
 a {
@@ -109,7 +127,7 @@ header li {
     
 }
 
-.jumbo-content p, a {
+.jumbo-content, a {
     font-size: 15px;
     font-weight: 500;
 }
@@ -126,8 +144,143 @@ header li {
 }
 
 .jumbo-img {
-    width: 55%;
+    width: 750px;
     position: absolute;
-    top: 55%;
-    right: 90px;
+    top: 340px;
+    right: 60px;
+}
+
+/* business plan section*/
+
+.business-plan-section {
+    margin-top: 160px;
+}
+
+.fakeround {
+    padding-top: 40px;
+}
+
+.section-header {
+    padding-bottom: 10px;
+}
+
+.section-header h2 {
+    margin-bottom: 30px;
+}
+/* fake round check */
+
+.circle {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.full {
+    border: 4px solid #0061ff;
+}
+
+.option-text {
+    padding-right: 5px;
+    font-size: 15px;
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+/* columns */
+
+.columns {
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.col {
+    border: 1px solid lightgray;
+    width: calc( ( 100% / 3) - 30px);
+}
+
+.col {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-top-content {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card-main-content {
+    padding: 30px 20px;
+}
+
+
+/* Top card Info */
+
+.firstcard-section h3 {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.grey-text {
+    color: gray;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.plan {
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.features {
+    padding: 10px 0;
+}
+
+.plan .btn {
+    margin: 20px 0;
+}
+
+.link {
+    padding-bottom: 30px;
+}
+
+.link a{
+    text-decoration: underline;
+    color: #0061ff;
+    margin-bottom: 20px;
+}
+
+/* bottom card info */
+
+.small-hr {
+    width: 30%;
+    color: lightgrey;
+}
+
+.secondcard-section {
+    padding-top: 30px;
+}
+
+.secondcard-section li {
+    display: flex;
+}
+
+.secondcard-section ul, li{
+    padding-top: 10px;
+}
+
+.secondcard-section li::before {
+    content: "\2713";
+    color: #0061ff;
+    font-size: 20px;
+    margin-right: 10px;
+    
 }
