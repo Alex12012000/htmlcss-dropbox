@@ -321,7 +321,35 @@ header li {
 }
 
 .large {
-    margin: 0;
     padding: 20 30px;
+}
 
+
+/* Dropbox partners */
+
+.partners {
+    margin-top: 90px;
+}
+
+.partner-content-area {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.partner-content-area h2 {
+    padding-bottom: 20px;
+}
+
+.partner-content-area p {
+    line-height: 25px;
+}
+
+.partner-btn {
+    margin-top: 30px;
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    text-align: center;
+    width: 40%;
 }
