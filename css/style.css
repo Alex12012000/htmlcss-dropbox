@@ -213,7 +213,7 @@ header li {
     padding: 10px 0;
 }
 
-.card-main-content {
+.card-main-content, .largecard-content {
     padding: 30px 20px;
 }
 
@@ -224,7 +224,7 @@ header li {
     margin-bottom: 10px;
 }
 
-.price {
+.price-text {
     font-size: 15px;
     font-weight: bold;
 }
@@ -283,4 +283,45 @@ header li {
     font-size: 20px;
     margin-right: 10px;
     
+}
+
+/* Large Card */
+
+.largecol {
+    border: 1px solid lightgray;
+    margin-top: 30px;
+}
+
+.largecard-content {
+    justify-content: space-between;
+}
+
+.largecard-top-content {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+.leftside-card {
+    width: 75%;
+}
+
+.leftside-card h3 {
+    margin-bottom: 10px;
+}
+
+.leftside-card span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.leftside-card p {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.large {
+    margin: 0;
+    padding: 20 30px;
+
 }
