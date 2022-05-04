@@ -402,7 +402,6 @@ header li {
 
 .boxes {
     width: 30%;
-    height: 400px;
     position: relative;
 }
 
@@ -489,4 +488,32 @@ header li {
     font-weight: 500;
     
     
+}
+
+/* Call to Action */
+
+.call-to-action {
+    background-color: #b4d0e7;
+    height: 300px;
+}
+
+.cta-content {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cta-text {
+    width: 50%;
+    margin: 100px 0;
+    color: #61082b;
+}
+
+.cta {
+    height: 250px;
+    align-items: center;
+}
+
+.btn-cta {
+    padding: 10px 40px;
+    background-color: white;
 }
