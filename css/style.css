@@ -275,6 +275,10 @@ header li {
     padding-top: 10px;
 }
 
+.secondcard-section ul {
+    margin-bottom: 90px;
+}
+
 .secondcard-section li::before {
     content: "\2713";
     color: #0061ff;
