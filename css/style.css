@@ -259,7 +259,7 @@ header li {
 /* bottom card info */
 
 .small-hr {
-    width: 30%;
+    width: 50px;
     color: lightgrey;
 }
 
@@ -377,3 +377,116 @@ header li {
     text-decoration: underline;
 }
 
+/* Dropbox business teams */
+
+.dropbox-business-team {
+    margin-top: 160px;
+}
+
+.text-area h2 {
+    margin-bottom: 20px;
+}
+
+.text-area a {
+    text-decoration: underline;
+    color: #0061ff;
+}
+
+/* LOGO BOXES */
+
+.bigbox {
+    margin-top: 40px;
+}
+
+/* boxe */
+
+.boxes {
+    width: 30%;
+    height: 400px;
+    position: relative;
+}
+
+.logobox {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.logobox img {
+    filter: invert(1);
+    
+}
+
+.green {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.blue {
+    background-color: #0093ce;
+}
+
+.darkpink {
+    background-color: #61082b;
+}
+
+.red {
+    background-color: #ff1c1c;
+}
+
+.darkred{
+    background-color: #d5001f;
+}
+
+.darkblue {
+    background-color: #0d2481;
+}
+
+.lightblue {
+    background-color: #b4d0e7;
+}
+
+.yellow {
+    background-color: #ffd830;
+}
+
+/* center */
+
+.centerbox {
+    width: 40%;
+    height: 400px;
+    padding: 40px 30px;
+    background-color: whitesmoke;
+}
+
+.logo-title {
+    width: 120px;
+    margin-bottom: 25px;
+}
+
+.centerbox p {
+    margin: 50px 0;
+}
+
+.centerbox span {
+    font-size: 15px;
+    font-weight: 500;
+    
+    
+}
