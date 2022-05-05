@@ -543,8 +543,33 @@ header li:hover {
     font-weight: 500;
     padding: 30px 0;
     border-top: 1px solid lightgray;
+}
+
+.li-main {
     display: flex;
     justify-content: space-between;
+}
+
+.faq p {
+    padding-top: 30px;
+    display: none;
+}
+
+#up {
+    display: none;
+   
+}
+
+.faq li:hover p {
+    display: block;
+}
+
+.faq li:hover i{
+    display: none;
+}
+
+.faq li:hover #up {
+    display: inline-block;
 }
 
 .faq li:nth-last-child(1) {
