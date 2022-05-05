@@ -84,10 +84,14 @@ nav {
 }
 
 header li {
-    padding: 15px;
-    
-   
+    padding: 0 15px;
+    line-height: 80px;
 }
+
+header li:hover {
+    border-bottom: 1px solid black;
+}
+
 
 /* logo */
 
@@ -106,17 +110,6 @@ header li {
 .login {
     padding: 0 20px;
     align-items: center;
-}
-
-/* menu */
-
-.li-menu {
-    height: 80px;
-    align-items: center;
-}
-
-.li-menu:hover {
-    border-bottom: 1px solid black;
 }
 
 /* MAIN */
