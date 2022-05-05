@@ -85,6 +85,8 @@ nav {
 
 header li {
     padding: 15px;
+    
+   
 }
 
 /* logo */
@@ -106,6 +108,16 @@ header li {
     align-items: center;
 }
 
+/* menu */
+
+.li-menu {
+    height: 80px;
+    align-items: center;
+}
+
+.li-menu:hover {
+    border-bottom: 1px solid black;
+}
 
 /* MAIN */
 
@@ -402,7 +414,7 @@ header li {
     margin-top: 40px;
 }
 
-/* boxe */
+/* boxes  */
 
 .boxes {
     width: 30%;
@@ -412,10 +424,11 @@ header li {
 .logobox {
     width: calc(100% / 2);
     height: calc(100% / 2);
-    padding: 40px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -433,6 +446,7 @@ header li {
 
 .logobox img {
     filter: invert(1);
+    width: 50%;
     
 }
 
